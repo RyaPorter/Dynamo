@@ -22,12 +22,10 @@
             </Style>
 
             <Style x:Key="PackageSearchTextBlock" TargetType="TextBlock">
+                <Setter Property="Text" Value="{x:Static p:Resources.PackageSearchViewSearchTextBox}"/>
                 <Style.Triggers>
                     <DataTrigger Binding="{Binding SearchState}" Value="Syncing">
                         <Setter Property="Text" Value="{x:Static p:Resources.PackageSearchStateSyncingWithServer}"/>
-                    </DataTrigger>
-                    <DataTrigger Binding="{Binding SearchState}" Value="Results">
-                        <Setter Property="Text" Value="{x:Static p:Resources.PackageSearchViewSearchTextBox}"/>
                     </DataTrigger>
                     <DataTrigger  Binding="{Binding Path=SearchText, Converter={StaticResource NonEmptyStringToCollapsedConverter}}" Value="Collapsed">
                         <Setter Property="Visibility" Value="Collapsed"/>
