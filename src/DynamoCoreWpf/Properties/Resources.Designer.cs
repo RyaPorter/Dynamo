@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Dynamo.Wpf.Properties
-{
-
-
+namespace Dynamo.Wpf.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -3406,15 +3406,6 @@ namespace Dynamo.Wpf.Properties
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to See more on the Dynamo Dictionary....
-        /// </summary>
-        public static string NodeHelpWindowDynamoDictionary {
-            get {
-                return ResourceManager.GetString("NodeHelpWindowDynamoDictionary", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to CATEGORY.
         /// </summary>
         public static string NodeHelpWindowNodeCategory {
@@ -3999,6 +3990,15 @@ namespace Dynamo.Wpf.Properties
         public static string PackageSearchViewKeywords {
             get {
                 return ResourceManager.GetString("PackageSearchViewKeywords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please Wait....
+        /// </summary>
+        public static string PackageSearchViewPleaseWait {
+            get {
+                return ResourceManager.GetString("PackageSearchViewPleaseWait", resourceCulture);
             }
         }
         
